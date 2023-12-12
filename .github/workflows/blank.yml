@@ -27,5 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a script in assignment 10
-        run:
-          /createvm.sh
+        run: bash createvm.sh
