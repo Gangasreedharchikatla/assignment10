@@ -28,4 +28,4 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a script in assignment 10
         run:
-          assigment10/createvm.sh
+          /createvm.sh
