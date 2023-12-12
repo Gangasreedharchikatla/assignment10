@@ -28,3 +28,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a script in assignment 10
         run: bash createvm.sh
+        env: # Set the secret as an input
+         GOOGLE_OAUTH_ACCESS_TOKEN: ${{ secrets.GCP_ACCESS_TOKEN }}
